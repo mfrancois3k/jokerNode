@@ -11,11 +11,11 @@
 <img src="" alt="">{{ title }}</img>
 <h1>A Planent: {{ name }}</h1>
 <div class="container">
-    <ul>Name: {{name}} 
-    {{#actors}}
-    <li>{{character}}: img{{img}}</li>
-    {{/actors}}
+   {{#actors}}
+    <ul>Name: {{name}}
+      <li>{{character}}: <img src="{{img}}" /> </li>
     </ul>
+   {{/actors}}
 </div>
 </body>
 </html>
